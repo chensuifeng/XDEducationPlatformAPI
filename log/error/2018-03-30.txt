@@ -1,0 +1,90 @@
+
+错误日志记录2018-03-30 11:51:35.051------>:
+2018-03-30 11:51:35.051------>:SqlParameterCollection 只接受非空的 SqlParameter 类型对象，不接受 SqlParameter[] 对象。
+2018-03-30 11:51:35.051------>:   在 XDEducationPlatformAPI.common.OperationData.AddMyCollectionVideos(MyCollectionVideos video) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 295
+   在 XDEducationPlatformAPI.Controllers.UserController.AddMyCollectionVideos(MyCollectionVideos json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 671
+2018-03-30 11:51:35.051------>:我的收藏视屏(AddMyCollectionVideos)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-30 11:54:50.630------>:
+2018-03-30 11:54:50.630------>:SqlParameterCollection 只接受非空的 SqlParameter 类型对象，不接受 SqlParameter[] 对象。
+2018-03-30 11:54:50.630------>:   在 XDEducationPlatformAPI.common.OperationData.AddMyCollectionVideos(MyCollectionVideos video) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 295
+   在 XDEducationPlatformAPI.Controllers.UserController.AddMyCollectionVideos(MyCollectionVideos json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 671
+2018-03-30 11:54:50.630------>:我的收藏视屏(AddMyCollectionVideos)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-30 11:58:44.652------>:
+2018-03-30 11:58:44.652------>:String[14]: Size 属性具有无效大小值 0。
+2018-03-30 11:58:44.652------>:   在 XDEducationPlatformAPI.common.OperationData.AddMyCollectionVideos(MyCollectionVideos video) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 295
+   在 XDEducationPlatformAPI.Controllers.UserController.AddMyCollectionVideos(MyCollectionVideos json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 671
+2018-03-30 11:58:44.652------>:我的收藏视屏(AddMyCollectionVideos)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-30 13:48:50.739------>:
+2018-03-30 13:48:50.739------>:过程或函数 'cp_AddMyCollectionVideos' 需要参数 '@userid'，但未提供该参数。
+2018-03-30 13:48:50.739------>:   在 XDEducationPlatformAPI.common.OperationData.AddMyCollectionVideos(MyCollectionVideos video) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 295
+   在 XDEducationPlatformAPI.Controllers.UserController.AddMyCollectionVideos(MyCollectionVideos json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 671
+2018-03-30 13:48:50.742------>:我的收藏视屏(AddMyCollectionVideos)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-30 13:58:02.703------>:
+2018-03-30 13:58:02.703------>:过程或函数 'cp_AddMyCollectionVideos' 需要参数 '@videoid'，但未提供该参数。
+2018-03-30 13:58:02.703------>:   在 XDEducationPlatformAPI.common.OperationData.AddMyCollectionVideos(MyCollectionVideos video) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 295
+   在 XDEducationPlatformAPI.Controllers.UserController.AddMyCollectionVideos(MyCollectionVideos json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 671
+2018-03-30 13:58:02.705------>:我的收藏视屏(AddMyCollectionVideos)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-30 14:13:26.132------>:
+2018-03-30 14:13:26.132------>:参数化查询 '(@userid int,@videoid int,@videocategroyid int,@videocategroy va' 需要参数 '@userid'，但未提供该参数。
+2018-03-30 14:13:26.132------>:   在 XDEducationPlatformAPI.common.OperationData.AddMyCollectionVideos(MyCollectionVideos video) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 316
+   在 XDEducationPlatformAPI.Controllers.UserController.AddMyCollectionVideos(MyCollectionVideos json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 671
+2018-03-30 14:13:26.134------>:我的收藏视屏(AddMyCollectionVideos)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-30 14:29:40.779------>:
+2018-03-30 14:29:40.779------>:过程或函数 'cp_AddMyCollectionVideos' 需要参数 '@userid'，但未提供该参数。
+2018-03-30 14:29:40.779------>:   在 XDEducationPlatformAPI.common.OperationData.AddMyCollectionVideos(MyCollectionVideos video) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 314
+   在 XDEducationPlatformAPI.Controllers.UserController.AddMyCollectionVideos(MyCollectionVideos json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 671
+2018-03-30 14:29:40.782------>:我的收藏视屏(AddMyCollectionVideos)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-30 14:49:44.765------>:
+2018-03-30 14:49:44.765------>:过程或函数 'cp_AddMyCollectionVideos' 需要参数 '@userid'，但未提供该参数。
+2018-03-30 14:49:44.765------>:   在 XDEducationPlatformAPI.common.OperationData.AddMyCollectionVideos(MyCollectionVideos video) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 314
+   在 XDEducationPlatformAPI.Controllers.UserController.AddMyCollectionVideos(MyCollectionVideos json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 671
+2018-03-30 14:49:44.768------>:我的收藏视屏(AddMyCollectionVideos)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-30 15:04:15.316------>:
+2018-03-30 15:04:15.316------>:未将对象引用设置到对象的实例。
+2018-03-30 15:04:15.316------>:   在 XDEducationPlatformAPI.common.OperationData.AddMyCollectionVideos(MyCollectionVideos video) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 314
+   在 XDEducationPlatformAPI.Controllers.UserController.AddMyCollectionVideos(MyCollectionVideos json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 671
+2018-03-30 15:04:15.319------>:我的收藏视屏(AddMyCollectionVideos)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+

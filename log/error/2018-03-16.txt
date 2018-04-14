@@ -1,0 +1,27 @@
+
+错误日志记录2018-03-16 17:17:50.412------>:
+2018-03-16 17:17:50.412------>:列名 'RoleId' 无效。
+2018-03-16 17:17:50.412------>:   在 XDEducationPlatformAPI.common.EPData.UserVerification(String account, Int32 accountType, String password, String code) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\EPData.cs:行号 131
+   在 XDEducationPlatformAPI.Controllers.UserController.UserLogin(LoginInfo json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 110
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-16 17:21:32.216------>:
+2018-03-16 17:21:32.216------>:列名 'RoleId' 无效。
+2018-03-16 17:21:32.216------>:   在 XDEducationPlatformAPI.common.EPData.UserVerification(String account, Int32 accountType, String password, String code) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\EPData.cs:行号 131
+   在 XDEducationPlatformAPI.Controllers.UserController.UserLogin(LoginInfo json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 108
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-16 17:22:47.867------>:
+2018-03-16 17:22:47.867------>:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+2018-03-16 17:22:47.867------>:   在 XDEducationPlatformAPI.common.EPData.UserVerification(String account, Int32 accountType, String password, String code) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\EPData.cs:行号 131
+   在 XDEducationPlatformAPI.Controllers.UserController.UserLogin(LoginInfo json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 108
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+

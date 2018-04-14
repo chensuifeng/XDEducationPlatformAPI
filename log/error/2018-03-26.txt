@@ -1,0 +1,10 @@
+
+错误日志记录2018-03-26 10:12:26.022------>:
+2018-03-26 10:12:26.022------>:未将对象引用设置到对象的实例。
+2018-03-26 10:12:26.022------>:   在 XDEducationPlatformAPI.common.OperationData.UserModify(UserModify user) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 193
+   在 XDEducationPlatformAPI.Controllers.UserController.UserModify(UserModify user) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 200
+2018-03-26 10:12:26.025------>:修改用户信息(UserModify)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+

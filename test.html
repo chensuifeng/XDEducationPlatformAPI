@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="./jquery-3.3.1.js" type="text/javascript" language="JavaScript"></script>
+    <script src="./md5.js" type="text/javascript" language="JavaScript"></script>
+    <script src="./core.js" type="text/javascript" language="JavaScript"></script>
+    <script src="./cipher-core.js?version=6.1" type="text/javascript" language="JavaScript"></script>
+    <script src="./mode-ecb.js" type="text/javascript" language="JavaScript"></script>
+    <script src="./tripledes.js" type="text/javascript" language="JavaScript"></script>
+    <script src="./CSharp_JS_DES.js" type="text/javascript" language="JavaScript"></script>
+    <style>
+        .main {
+            width: 400px;
+            height: 100%;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+
+        .divDrop {
+            width: 100%;
+            height: 50px;
+        }
+
+        .comment {
+            width: 100%;
+            height: 100%;
+        }
+
+        .input {
+            width: 300px;
+            height: 30px;
+        }
+
+        #params {
+            width: 300px;
+            height: 100px;
+        }
+
+        .divsubmit {
+            width: 80px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            background-color: #dedcdc;
+            cursor: pointer;
+            margin-left: 100px;
+        }
+
+        #result {
+            width: 500px;
+            height: 200px;
+        }
+
+        table tr {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="divDrop">
+            服务器 :&nbsp;<select id="server">
+                <option>101.200.175.45</option>
+                <option>47.75.77.200</option>
+                <option>localhost</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;
+            请求方式 :&nbsp;<select id="requesttype">
+                <option>post</option>
+                <option>get</option>
+            </select>
+
+        </div>
+        <div class="comment">
+            <table>
+                <tr>
+                    <td>方法名:</td>
+                    <td><input id="mathod" class="input" /></td>
+                </tr>
+                <tr>
+                    <td>参数:</td>
+                    <td>
+                        <textarea id="params"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <div class="divsubmit" onclick="commonTest()">提交</div>
+        </div>
+        <div>
+            返回结果：<br />
+            <textarea id="result"></textarea>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    明文：<input id="express" class="input" />
+    密文：<input id="ciphertext" class="input" />
+    <div class="divsubmit" onclick="aa()">加密</div>
+    <div class="divsubmit" onclick="bb()">解密</div>
+</body>
+</html>
+
+<script type="text/javascript">
+    var isclick = 0;
+
+    {
+
+
+        var winw, winh;
+        winw = window.innerWidth;
+        winh = window.innerHeight;
+
+
+        function commonTest() {
+            //alert(winw + '------' + winh);
+            //if (isclick == 1) return;
+            isclick = 1;
+            $("#result").val("");
+            var url, server, data, type, method, port;
+            var serverobj = document.getElementById("server");
+            var serverindex = serverobj.selectedIndex;
+            server = serverobj.options[serverindex].text;
+            var typeobj = document.getElementById("requesttype");
+            var typeindex = typeobj.selectedIndex;
+            type = typeobj.options[typeindex].text;
+            method = $("#mathod").val();
+            data = $("#params").val();
+            port = 5920;
+            if (server == 'localhost') {
+                var url = window.location.href;
+                port = url.replace("http://localhost:", "").replace("https://localhost:", "").split("/")[0];
+            }
+
+            url = "http://" + server + ":" + port + "/api/user/" + method;
+            var params = "";
+            if (type == "get" || type == "GET") {
+                data = JSON.parse(data);
+                for (var i in data) {
+                    params += params.length > 0 ? "&" + i + "=" + data[i] : i + "=" + data[i];
+                }
+                if (params.length > 0) {
+                    data = "";
+                    url = url + "?" + encMe(params, '01234567');
+                }
+                else {
+                    alert("请填写参数");
+                    return;
+                }
+            }
+            else {
+                data = encMe(data, '01234567');
+            }
+            $.support.cors = true;
+            $.ajax({
+                type: type,
+                url: url,
+                contentType: "application/json",
+                data: data,
+                dataType: "json",
+                success: function (data, status) {
+                    isclick = 0;
+                    if (status == "success") {
+                        $("#result").val(JSON.stringify(data));
+                        isclick = 0;
+                    }
+                }
+            });
+        }
+
+        function aa() {
+            var text = $("#express").val();
+            //$("#ciphertext").val(encryptByDES(text));
+            $("#ciphertext").val(encMe(text, "01234567"));
+        }
+
+        function bb() {
+            var text = $("#ciphertext").val();
+            $("#express").val(decryptByDESModeEBC(text));
+        }
+    }
+
+    //加密的私钥
+    var key = '01234567';
+    // DES加密
+    function encryptByDES(message) {
+        //把私钥转换成16进制的字符串
+        var keyHex = CryptoJS.enc.Utf8.parse(key);
+        //模式为ECB padding为Pkcs7
+        var encrypted = CryptoJS.DES.encrypt(message, keyHex, {
+            mode: CryptoJS.mode.ECB,
+            padding: CryptoJS.pad.Pkcs7
+        });
+        //加密出来是一个16进制的字符串
+        return encrypted.ciphertext.toString();
+
+    }
+    //DES  ECB模式解密
+    function decryptByDESModeEBC(ciphertext) {
+        //把私钥转换成16进制的字符串
+        var keyHex = CryptoJS.enc.Utf8.parse(key);
+        //把需要解密的数据从16进制字符串转换成字符byte数组
+        var decrypted = CryptoJS.DES.decrypt({
+            ciphertext: CryptoJS.enc.Hex.parse(ciphertext)
+        }, keyHex, {
+            mode: CryptoJS.mode.ECB,
+            padding: CryptoJS.pad.Pkcs7
+        });
+        //以utf-8的形式输出解密过后内容
+        var result_value = decrypted.toString(CryptoJS.enc.Utf8);
+        return result_value;
+    }
+
+    //accounttype 1 为手机   2为普通账号
+
+    //登陆 UserLogin {"account": "13000000000","accounttype": "2", "password":"123456", "code": ""}
+    //注册 UserRegister {"account": "13000000000","accounttype": "1", "password":"123456", "code": "234951"}
+    //发送验证码 SendCode  {"phone":"13000000000","codetype":"1"} codetype  1注册   2登陆   3重置密码
+    //信息修改 UserModify {"id":"100","name":"chen","nickname":"","phone":"10000","email":"asdfsdaf","idnumber":"11111111111","imageurl":"","sex":"1","birthday":"1990-01-01","address":""} name姓名 nickname昵称  sex 1男 2女
+    //重置密码 ResetMyPassword       登陆后修改密码参数 {"userid":"1","password":"123456"}   找回密码参数  {"account":"13000000000","password":"123456"}
+    //验证验证码是否正确 VerificationCodeValid{"account":"13000000000","codetype":"3","code":"111111"} codetype  1注册   2登陆   3重置密码
+    //找回密码 GetBackMyPassword {"account":"13000000000","password":"123456"}     ----暂时没有此方法
+
+    //添加收藏 AddMyCollections{"userid":"","collectiontype":"1","contentid":"","contenturl":"","imageurl":"","title":"","descriptions":""}
+    //获取收藏列表  GetMyCollections {"userid":""}
+    //删除收藏 DeleteMyCollections {"userid":"100","collectionids":"1,2,3,4,5"}
+
+    //获取我的消息 GetMyMessages {"userid":"100","isread":"0"} isread 0全部  1已读  2 未读
+    //设置我的消息已读 SetMyMessagesIsRead {"userid":"100","msgids":"1,2,3,4,5"}
+    //删除我的消息 DeleteMyMessages {"userid":"100","msgids":"1,2,3,4,5"}
+    //插入消息 InsertMessagesToUser {"userids":"100,200,201","msgtitle":"werqwerr","msgcontent":"qwerre"}
+
+
+    //获取我的全部笔记 GetMyNotes {"userid":"100"}
+    //编辑笔记 EditMyNotes{"id":"1","userid":"100","notettype":"1","notetitle":"asdfdafs","notecontent":"00000000","noteurl":"","notecontentdes":"","noteimageurl":""}
+    //删除笔记 DeleteMyNotes {"userid":"100","noteids":"1,2,3,4,5"}
+    //查看笔记 CheckMyNotes {"userid":"100","id":"1"}
+    //添加笔记 AddMyNotes{"notettype":"1","userid":"100","notettype":"1","notetitle":"asdfdafs","notecontent":"00000000","noteurl":"","notecontentdes":"","noteimageurl":""} notettype 1、课程笔记 2、章节笔记 3、视频笔记
+
+    //添加收藏视屏 AddMyCollectionVideos {"userid":"1","videoid":"1","videocategroyid":"100","videocategroy":"1","videotitile":"嘿嘿嘿","videodes":"怎么一夜暴富","videoimageurl":"www.baidu.com","videoprice":"0","videolecturerid":"","videolecturer":"马云","issign":"0","watchcounts":"1000","mywatchcounts":""}
+    //删除收藏视屏 DeleteMyCollectionVideos {"userid":"1","mycollectionivideoids":"1,2,3"}
+    //增加观看次数 AddMyCollectionVideosWatchCounts {"userid":"1","id":"1"} 没有返回值
+</script>

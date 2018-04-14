@@ -1,0 +1,7 @@
+
+2018-03-08 10:50:26.906------>:未将对象引用设置到对象的实例。
+2018-03-08 10:50:26.906------>:   在 XDEducationPlatformAPI.common.Log.WriteError(Action DefFunc, Func`1 ErrorFunc) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\Log.cs:行号 52
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+

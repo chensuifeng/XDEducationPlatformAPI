@@ -1,0 +1,8 @@
+
+错误日志记录2018-03-17 14:32:29.517------>:
+2018-03-17 14:32:29.517------>:未将对象引用设置到对象的实例。
+2018-03-17 14:32:29.517------>:   在 XDEducationPlatformAPI.Controllers.UserController.UserLogin(LoginInfo json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 95
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+

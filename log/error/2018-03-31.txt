@@ -1,0 +1,10 @@
+
+错误日志记录2018-03-31 09:39:51.214------>:
+2018-03-31 09:39:51.214------>:列名 'imageurl' 无效。
+2018-03-31 09:39:51.214------>:   在 XDEducationPlatformAPI.common.OperationData.UserModify(UserModify user) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\OperationData.cs:行号 236
+   在 XDEducationPlatformAPI.Controllers.UserController.UserModify(UserModify user) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 205
+2018-03-31 09:39:51.224------>:修改用户信息(UserModify)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+

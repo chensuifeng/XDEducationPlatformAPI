@@ -1,0 +1,9 @@
+
+错误日志记录2018-03-14 15:48:26.292------>:
+2018-03-14 15:48:26.292------>:未将对象引用设置到对象的实例。
+2018-03-14 15:48:26.292------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 49
+2018-03-14 15:48:26.296------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+

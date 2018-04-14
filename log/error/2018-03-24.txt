@@ -1,0 +1,10 @@
+
+错误日志记录2018-03-24 16:05:41.044------>:
+2018-03-24 16:05:41.044------>:连接未关闭。 连接的当前状态为打开。
+2018-03-24 16:05:41.044------>:   在 XDEducationPlatformAPI.common.EPData.InsertCodeByCP(String sql, String phone, String code) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\common\EPData.cs:行号 78
+   在 XDEducationPlatformAPI.Controllers.UserController.SendCode(CodeInfo json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 175
+2018-03-24 16:05:41.046------>:发送验证码(SendCode)
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+

@@ -1,0 +1,180 @@
+
+错误日志记录2018-03-10 09:36:48.949------>:
+2018-03-10 09:36:48.949------>:未将对象引用设置到对象的实例。
+2018-03-10 09:36:48.949------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:36:48.957------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:43.219------>:
+2018-03-10 09:38:43.219------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:43.219------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:43.219------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:44.558------>:
+2018-03-10 09:38:44.558------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:44.558------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:44.558------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:45.045------>:
+2018-03-10 09:38:45.045------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:45.045------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:45.045------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:45.284------>:
+2018-03-10 09:38:45.284------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:45.284------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:45.284------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:45.508------>:
+2018-03-10 09:38:45.508------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:45.508------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:45.508------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:45.688------>:
+2018-03-10 09:38:45.688------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:45.688------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:45.688------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:45.869------>:
+2018-03-10 09:38:45.869------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:45.869------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:45.869------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:46.060------>:
+2018-03-10 09:38:46.060------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:46.060------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:46.060------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:46.212------>:
+2018-03-10 09:38:46.212------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:46.212------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:46.212------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:46.386------>:
+2018-03-10 09:38:46.386------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:46.386------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:46.386------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:46.514------>:
+2018-03-10 09:38:46.514------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:46.514------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:46.514------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:46.654------>:
+2018-03-10 09:38:46.655------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:46.655------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:46.655------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:46.782------>:
+2018-03-10 09:38:46.782------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:46.782------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:46.782------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:46.923------>:
+2018-03-10 09:38:46.923------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:46.923------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:46.923------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:47.219------>:
+2018-03-10 09:38:47.219------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:47.219------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:47.219------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:47.612------>:
+2018-03-10 09:38:47.612------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:47.612------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:47.612------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:47.777------>:
+2018-03-10 09:38:47.777------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:47.777------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:47.779------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:47.923------>:
+2018-03-10 09:38:47.923------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:47.923------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:47.923------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
+
+错误日志记录2018-03-10 09:38:48.068------>:
+2018-03-10 09:38:48.068------>:未将对象引用设置到对象的实例。
+2018-03-10 09:38:48.068------>:   在 XDEducationPlatformAPI.Controllers.UserController.setUser(FileRequest json) 位置 D:\工作项目\VSProjects\XDEducationPlatformAPI\XDEducationPlatformAPI\Controllers\UserController.cs:行号 47
+2018-03-10 09:38:48.068------>:哈哈哈哈哈哈哈哈哈哈
+
+-------------------我是分割线----------------------------------------------------------------------------------
+
+
