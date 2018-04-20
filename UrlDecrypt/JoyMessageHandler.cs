@@ -60,30 +60,30 @@ namespace XDEducationPlatformAPI.UrlDecrypt
         //}
 
 
-        /// <summary>
-        /// 处理将要向客户端response时
-        /// </summary>
-        /// <param name="response"></param>
-        /// <param name="cancellationToken"></param>
-        /// <returns></returns>
-        //protected override HttpResponseMessage ProcessResponse(HttpResponseMessage response, CancellationToken cancellationToken)
-        //{
-        //    //var isMediaType = response.Content.Headers.ContentType.MediaType.Equals(mediaTypeName, StringComparison.OrdinalIgnoreCase);
-        //    var ver = System.Web.HttpContext.Current.Request.Headers.GetValues("api_version")?.FirstOrDefault();
-        //    var encrypt = MessageEncryptionCreator.GetInstance(ver);
-        //    if (encrypt != null)
-        //    {
-        //        if (response.StatusCode == HttpStatusCode.OK)
-        //        {
-        //            var result = response.Content.ReadAsStringAsync().Result;
-        //            // 返回消息 进行加密
-        //            var encodeResult = encrypt.Encode(result);
-        //            response.Content = new StringContent(encodeResult);
-        //        }
-        //    }
+        ///// <summary>
+        ///// 处理将要向客户端response时
+        ///// </summary>
+        ///// <param name="response"></param>
+        ///// <param name="cancellationToken"></param>
+        ///// <returns></returns>
+        ////protected override HttpResponseMessage ProcessResponse(HttpResponseMessage response, CancellationToken cancellationToken)
+        ////{
+        ////    //var isMediaType = response.Content.Headers.ContentType.MediaType.Equals(mediaTypeName, StringComparison.OrdinalIgnoreCase);
+        ////    var ver = System.Web.HttpContext.Current.Request.Headers.GetValues("api_version")?.FirstOrDefault();
+        ////    var encrypt = MessageEncryptionCreator.GetInstance(ver);
+        ////    if (encrypt != null)
+        ////    {
+        ////        if (response.StatusCode == HttpStatusCode.OK)
+        ////        {
+        ////            var result = response.Content.ReadAsStringAsync().Result;
+        ////            // 返回消息 进行加密
+        ////            var encodeResult = encrypt.Encode(result);
+        ////            response.Content = new StringContent(encodeResult);
+        ////        }
+        ////    }
 
-        //    return response;
-        //}
+        ////    return response;
+        ////}
         #endregion
 
         /// <summary>
@@ -117,7 +117,6 @@ namespace XDEducationPlatformAPI.UrlDecrypt
             string baseQuery = string.Empty;
             if (!request.RequestUri.Query.IsNullOrEmpty())
             {
-
                 // 同 body
                 // 读取请求 url query数据
                 baseQuery = request.RequestUri.Query.Substring(1);
@@ -132,7 +131,6 @@ namespace XDEducationPlatformAPI.UrlDecrypt
             request.Content = new StringContent(baseContent);
             //}
             request.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-
 
             return request;
         }
@@ -158,7 +156,6 @@ namespace XDEducationPlatformAPI.UrlDecrypt
             //        response.Content = new StringContent(encodeResult);
             //    }
             //}
-
             return response;
         }
 
